@@ -208,7 +208,7 @@ document.getElementById('submit-button').addEventListener('click', () => {
     console.log('Checkbox Values:', values); // For debugging
 
     // Send the values to the ML model endpoint
-    const endpointUrl = 'https://deployment-test-production-cad9.up.railway.app/diseasePrediction'; // Replace with your endpoint URL
+    const endpointUrl = 'https://app-predict-image.1ongwfft5soj.us-south.codeengine.appdomain.cloud/diseasePrediction'; // Replace with your endpoint URL
     fetch(endpointUrl, {
         method: 'POST',
         headers: {
